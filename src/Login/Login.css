@@ -1,0 +1,37 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.login h1{
+    font-size: 3rem;
+}
+.login p{
+    font-size: 1.5rem;
+}
+.login .login-area{
+    background-color:rgba(37,39,44,.7) ;
+    height: 400px;
+    width: 450px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.login .login-area button{
+    height: 50px;
+    width: 180px;
+    border-radius:7px;
+    border: none;
+    color: white;
+    background-color: #cc5e5e;
+    cursor: pointer;
+    font-weight: bold;
+}
+.login .login-area button:hover{
+    opacity: 0.8;
+}

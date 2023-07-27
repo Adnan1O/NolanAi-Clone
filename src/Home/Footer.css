@@ -1,0 +1,32 @@
+footer{
+    background-color: rgba(0, 0, 0, 0.88);
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: start;
+    color: #f5f2f0;
+}
+footer p{
+    font-size: 0.8rem;
+
+}
+footer small{
+    font-size: 0.7rem;
+}
+.socials{
+    display: flex;
+    align-items: center;
+
+}
+.socials p{
+    margin-right: 5px;
+}
+.socials svg{
+    font-size: 1.3rem;
+    margin-right: 15px;
+    cursor: pointer;
+}

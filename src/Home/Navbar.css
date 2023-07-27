@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+   justify-content: space-between;
+   margin: 0 1.5rem ;
+}
+.navbar .logo img{
+    cursor: pointer;
+}
+.navbar .list{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    cursor: pointer;
+}
+.navbar .user-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar .user-img img{
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.navbar .user-img p{
+    text-align: center;
+}

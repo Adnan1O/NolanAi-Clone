@@ -1,0 +1,33 @@
+.Videoarea{
+    background-color: rgb(23, 26, 31);
+    display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 50px;
+height: 430px;
+}
+.whatis{
+    width: 50%;
+    text-align: start;
+    margin-left: 50px;
+}
+.whatis p{
+    font-size: 1.5rem;
+    
+}
+.whatis button{
+    height: 70px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: #cc5e5e;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.whatis h1{
+    font-size: 3rem;
+}
+.video{
+    width: 50%;
+}

@@ -1,0 +1,15 @@
+.Home{
+    color: white;
+    position: relative;
+    
+
+}
+
+.feature{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(23, 26, 31);
+     gap: 2rem;
+     margin-top: 120px;
+     padding: 0 1rem;
+}

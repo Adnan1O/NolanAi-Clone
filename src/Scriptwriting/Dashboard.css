@@ -1,0 +1,40 @@
+.dashboard h1{
+    margin-top: 150px;
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+}
+.dashboard button{
+    height: 70px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    background-color:#cc5e5e ;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.dashboard .tab{
+    background-color: rgba(0, 0, 0, 0.88);
+    margin-top: 60px;
+    width: 360px;
+    height: 40px;
+    margin-left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    border-radius: 15px;
+    padding: 0 .5rem ;
+    cursor: pointer;
+}
+.active{
+    background-color: #cc5e5e;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}

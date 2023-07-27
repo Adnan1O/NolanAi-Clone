@@ -1,0 +1,112 @@
+.create .overlay{
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6) ;
+    position: fixed;
+
+}
+.create .container{
+    height: 55%;
+    width:500px;
+    background-color: white;
+    position: absolute;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 35%;
+    bottom: 200px;
+    border-radius: 15px;
+    padding: 1rem;
+}
+.create .container p{
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+.create .container label{
+    color: rgb(87, 87, 87);
+    margin-bottom: .5rem;
+}
+.create .container input{
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(182, 182, 182);
+    margin-bottom: 1.5rem;
+    padding-left: 10px;
+    outline: none;
+}
+.create .container .suggest{
+    border-radius: 15px;
+    padding-left: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #f6ffed ;
+    border:  1px solid #b7eb8f;
+    margin-bottom: 1.5rem;
+}
+.create .container .suggest button{
+    height: 40px;
+    width: 120px;
+    color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.04);
+    margin-left: 1rem;
+    
+}
+.create .container .pdf{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+.create .container .pdf p{
+    color: rgb(68, 68, 68);
+    font-weight: lighter;
+    margin-top: 1rem;
+}
+.create .container .pdf-btn button{
+    background-color: transparent;
+    color: black;
+    border: 1px solid rgb(173, 173, 173);
+    height: 45px;
+    width: 100px;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    border-radius: 20px;
+}
+.create .container .pdf-btn{
+    display: flex;
+    gap: 1rem;
+}
+.create .container .submit {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.create .container .submit button{
+    height: 45px;
+    width: 100px;
+    font-weight: lighter;
+    border-radius: 20px;
+}
+.create .container .submit .cancel{
+    background-color: transparent;
+    color: black;
+    border: 1px solid rgb(173, 173, 173);
+}
+.create .container option{
+    outline: none;
+    border-radius: 15px;
+}
+.create .container select{
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid rgb(173, 173, 173);
+    height: 35px;
+}

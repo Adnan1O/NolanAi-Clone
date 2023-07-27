@@ -1,0 +1,53 @@
+.Banner{
+    height:60%;
+    width: 60%;
+   display: flex;
+   flex-direction:column ;
+   align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 100px;
+    gap: 1rem;
+    margin-left: 3rem;
+    text-align: start;
+ 
+}
+.Banner h1{
+    font-size: 3rem;
+}
+.Banner p{
+    font-size: 1.5rem;
+
+}
+.Banner .writing{
+    height: 70px;
+    width: 170px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    background-color: #cc5e5e;
+    border: none;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.Banner .writing:hover{
+    opacity: 0.8;
+}
+.Banner .login{
+    height: 70px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.Banner .login:hover{
+    color: #cc5e5e;
+    border: 1px solid #cc5e5e;
+}
+.Banner .buttons{
+    display: flex;
+}

@@ -1,0 +1,25 @@
+
+.component{
+    background-color:rgb(23, 26, 31) ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: start;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    gap: 1rem;
+    height: 200px;
+
+
+}
+.component img{
+    margin-left: 5px;
+}
+.text-area h2{
+    font-size: 1.4rem;
+}
+.text-area span{
+    font-size: .85rem;
+    color: rgb(223, 223, 223);
+}

@@ -1,0 +1,19 @@
+.Demo{
+  
+    background-color:#202327 ;
+}
+.Demo p{
+    padding: 3.5rem 0;
+    font-size: 1.5rem;
+}
+.demo-area{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4rem;
+padding-bottom: 3rem;
+}
+.demotext{
+    width: 40%;
+    text-align: start;
+}
