@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json())
 app.use(cors())
 
-const API_KEY = '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'
+const API_KEY = 'your_key'
 
 app.post('/sendscript', async(req,res)=>{
     const {title, plot, genre} = req.body;
