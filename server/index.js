@@ -19,7 +19,7 @@ app.post('/sendscript', async(req,res)=>{
     body: JSON.stringify({
         model : "gpt-3.5-turbo",
         messages: [{ role: "user", content: `write a script title is ${title} plot is ${plot} and genre is ${genre}` }],
-        max_tokens:300,
+        max_tokens:50,
     })
 }
     try {       
