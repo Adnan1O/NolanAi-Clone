@@ -1,14 +1,15 @@
-About the project:
-Nolan ai is an ai script writing web applications. Basically users inputs the title, plot and genre of the script and the the web app generate script accordingly Integrated chat-GPT chat complition for scripts. Fe- React Be-node auth-firebase Ui-css
+ <h2>About the project</h2>
+ <p>Nolan ai is an ai script writing web applications. Basically users inputs the title, plot and genre of the script and the the web app generate script accordingly Integrated chat-GPT chat complition for scripts. Fe- React Be-node auth-firebase Ui-css
+</p>
 
-👉 Live Demo: https://nolan-ai-clone-deploy.vercel.app/
+👉 Live Demo:  <a href='https://nolan-ai-clone-deploy.vercel.app/'>Live Demo</a>
 
-Build with:
-» React JS
-» node js express js
+<h3>Build with:</h3>
+» React JS<br>
+» node js express js<br>
 » Vanilla css
 
-Screenshots of the Project 📸
+<h2>Screenshots of the Project 📸</h2>
 
 ![Capture1](https://github.com/Adnan1O/NolanAi-Clone/assets/134485508/9b1848d9-164f-4d09-acba-e6b2aca2435e)
 ![Capture2](https://github.com/Adnan1O/NolanAi-Clone/assets/134485508/8c646684-4678-4d49-8937-35ee4e6f0d48)
